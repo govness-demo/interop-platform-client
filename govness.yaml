@@ -1,0 +1,18 @@
+# Fictional demo block: see README.md.
+schema_version: 1
+id: "md-interoperability-office.interop-platform-client"
+name: "Interoperability platform client"
+type: "connector"
+version: "0.2.0"
+summary: "Client for consuming services on the national interoperability platform."
+description: "A client library and examples for calling services published on the national data exchange platform."
+publisher:
+  environment: "md-interoperability-office"
+  body: "Interoperability Office of Moldova"
+languages: ["ro", "en"]
+license: "EUPL-1.2"
+interfaces:
+  protocol: "openapi"
+links:
+  repo: "https://github.com/govness-demo/interop-platform-client"
+domains: ["digital-services"]
